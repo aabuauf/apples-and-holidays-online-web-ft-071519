@@ -71,6 +71,7 @@ holiday_hash.each do |season, holiday|
   wordarray.each do|newName|
   newArray.push(newName.capitalize!)
   newWord = newArray.join(" ")
+end
 else
   newWord = holidayname.to_s.capitalize!
 end
