@@ -68,10 +68,10 @@ holiday_hash.each do |season, holiday|
    
   wordarray= holidayname.to_s.split("_")
  
-  wordarray.each do|newName|
-  newArray.push(newName.capitalize!)
-  newWord = newArray.join(" ")
-end
+        wordarray.each do|newName|
+        newArray.push(newName.capitalize!)
+        newWord = newArray.join(" ")
+      end
 else
   newWord = holidayname.to_s.capitalize!
 end
