@@ -76,10 +76,10 @@ holiday_hash.each do |season, holiday|
         else
           newWord = holidayname.to_s.capitalize!
         end
-  
+      puts "  "+newWord + ": " + supply.join(", ")
     end 
   
-  puts "  "+newWord + ": " + supply.join(", ")
+  
   
   end
   
